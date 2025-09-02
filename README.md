@@ -220,17 +220,6 @@ Id,,Name,,Date,,Time
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📸 Screenshots
-
-### Main Interface
-![Main Interface](screenshots/main_interface.png)
-
-### Registration Process
-![Registration](screenshots/registration.png)
-
-### Entry Tracking
-![Entry Tracking](screenshots/entry_tracking.png)
-
 ## 🔧 Advanced Configuration
 
 ### Adjusting Recognition Sensitivity
@@ -256,57 +245,6 @@ The system uses Pushover for mobile notifications. To receive alerts:
 3. Configure the API settings in the code
 4. Test notifications before deployment
 
-## 🔄 Backup & Recovery
-
-### Backing Up Data
-```bash
-# Backup user data
-cp -r UserDetails/ backup/UserDetails_$(date +%Y%m%d)/
-cp -r TrainingImage/ backup/TrainingImage_$(date +%Y%m%d)/
-cp -r TrainingImageLabel/ backup/TrainingImageLabel_$(date +%Y%m%d)/
-```
-
-### Restoring Data
-```bash
-# Restore from backup
-cp -r backup/UserDetails_YYYYMMDD/ UserDetails/
-cp -r backup/TrainingImage_YYYYMMDD/ TrainingImage/
-cp -r backup/TrainingImageLabel_YYYYMMDD/ TrainingImageLabel/
-```
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- OpenCV community for computer vision tools
-- Pushover for notification services
-- Python community for excellent libraries
-- Tkinter for GUI framework
-
-## 📞 Support
-
-For support and questions:
-- Create an issue in this repository
-- Email: your-email@example.com
-- Documentation: Check the code comments for detailed explanations
-
-## 🔄 Version History
-
-- **v1.0.0** - Initial release with core facial recognition features
-- **v1.1.0** - Added push notifications and email alerts
-- **v1.2.0** - Enhanced security features and improved GUI
-- **v1.3.0** - Added configuration management and better error handling
-
-## ⚠️ Important Notes
-
-- **Privacy**: Ensure proper consent before implementing facial recognition
-- **Lighting**: Maintain consistent lighting for optimal recognition
-- **Backup**: Regularly backup training data and user information
-- **Testing**: Test all notification systems before production deployment
-- **Security**: Keep API keys and passwords secure
-- **Compliance**: Follow local laws regarding biometric data collection
 
 ## 🚀 Future Enhancements
 
