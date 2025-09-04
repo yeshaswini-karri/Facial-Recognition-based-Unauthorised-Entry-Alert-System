@@ -86,7 +86,7 @@ pip install requests
 ## 📁 Project Structure
 
 ```
-facial-recognition-entry-system/
+Facial-Recognition-based-Unauthorised-Entry-Alert-system/
 │
 ├── main.py                              # Main application file
 ├── requirements.txt                     # Python dependencies
