@@ -1,0 +1,8 @@
+tk
+opencv-contrib-python
+pandas
+numpy
+pillow
+playsound
+paho-mqtt
+requests
